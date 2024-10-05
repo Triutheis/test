@@ -11,14 +11,14 @@ EXPIRATION_DATE="2024-10-10"  # Ngày hết hạn
 CURRENT_DATE=$(date +%Y-%m-%d)
 
 # Yêu cầu người dùng nhập khóa
-echo "Nhập khóa để truy cập (khóa sẽ hết hạn vào $EXPIRATION_DATE):"
+clear; echo "Nhập khóa để truy cập (khóa sẽ hết hạn vào $EXPIRATION_DATE):"
 read -s INPUT_KEY
 
 # Kiểm tra khóa
 if [ "$INPUT_KEY" == "$KEY" ]; then
     # So sánh ngày hiện tại với ngày hết hạn
     if [[ "$CURRENT_DATE" < "$EXPIRATION_DATE" ]]; then
-        echo "Truy cập thành công!"
+       clear; echo "Truy cập thành công!"
          unzip v4.zip && chmod a+x tun && chmod a+x psiphon-tunnel-core && chmod a+x qexit && chmod a+x wl && chmod a+x ver && chmod a+x v4man && chmod a+x qoa && chmod a+x v4a;
     else
         echo "Khóa đã hết hạn! Truy cập bị từ chối."
