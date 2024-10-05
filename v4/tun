@@ -1,0 +1,1 @@
+clear && sleep 1 && echo "Đang khởi động..." && sleep 1 && am start -n net.typeblog.socks/net.typeblog.socks.MainActivity && sleep 1 && tun2

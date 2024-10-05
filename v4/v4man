@@ -1,0 +1,8 @@
+echo "[1]: Gõ lệnh tun để khởi động psiphon 0đ"
+echo "[2]: Gõ lệnh qexit để thoát nhanh termux"
+echo "[3]: Gõ lệnh "wl on" (Hoặc "wl off") để bật (hoặc tắt) chạy nền"
+echo "[4]: Gõ lệnh qoa <dấu cách> <mã app> để khởi động nhanh app, gõ qoa để xem hướng dẫn"
+echo "[5]: Gõ lệnh v4man để xem hướng dẫn"
+echo "[6]: Gõ lệnh v4a để cài đặt phiên bản tự chạy"
+echo "[7]: Gõ lệnh ver để kiểm tra phiên bản mới nhất"
+echo " "

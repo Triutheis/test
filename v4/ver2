@@ -1,0 +1,2 @@
+echo "Đang kiểm tra phiên bản" && sleep 1 && v="4.0" && ver=$(curl -s --connect-timeout 5 https://raw.githubusercontent.com/Triutheis/v4/main/ver) && echo "Phiên bản hiện tại: " $v && if [ "$v" == "$ver" ]; then echo "Bạn đang ở phiên bản mới nhất";  else echo "Đã có phiên bản mới, gõ ver và cập nhật để có trải nghiệm tốt nhất" ;
+fi && echo " "
