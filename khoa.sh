@@ -18,7 +18,7 @@ read -s INPUT_KEY
 if [ "$INPUT_KEY" == "$KEY" ]; then
     # So sánh ngày hiện tại với ngày hết hạn
     if [[ "$CURRENT_DATE" < "$EXPIRATION_DATE" ]]; then
-        echo "Truy cập thành công! Bạn có thể truy cập tệp tin $FILE."
+        echo "Truy cập thành công!"
          unzip v4.zip && chmod a+x tun && chmod a+x psiphon-tunnel-core && chmod a+x qexit && chmod a+x wl && chmod a+x ver && chmod a+x v4man && chmod a+x qoa && chmod a+x v4a;
     else
         echo "Khóa đã hết hạn! Truy cập bị từ chối."
